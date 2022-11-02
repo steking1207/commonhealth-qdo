@@ -1,15 +1,21 @@
-@@include('../partial/global/_head.html')
+@@include('../partial/global/_head.html',{
+    title:'寬庭牙醫｜美好綻放 由「齒」開始',
+    desc:'邀請專業醫師分享關於齒科美學、牙齒保健、治療等重要觀念，一口好牙，由「齒」開始！',
+    keywords:'寬庭牙醫,牙齒治療,牙齒保健',
+})
     <body id="top">
         @@include('../partial/global/_header.html')
         <main>
             @@include('../partial/page/index/_kv.html')
+            @@include('../partial/page/index/_article.html')
             @@include('../partial/page/index/_video.html')
         </main>
         @@include('../partial/global/_footer.html')
+        @@include('../partial/modal/_modal-video.html')
         <!-- global -->
         @@include('../partial/global/_js.html')
         <!-- <script>
-            var myModal = new bootstrap.Modal(document.getElementById("ModalExamAns"), {});
+            var myModal = new bootstrap.Modal(document.getElementById("modalVideo"), {});
             document.onreadystatechange = function () {
                 myModal.show();
             };

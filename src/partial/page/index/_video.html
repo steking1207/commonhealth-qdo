@@ -1,5 +1,15 @@
-<div>
-    <div class="container">
-        video
+<div class="bg-video" id="video" data-category="web_event" data-action="2022dental" data-label="section-dental-video">
+    <div class="container py-48 py-lg-100">
+        <div class="mb-20 mb-lg-40">
+            <div class="display-5 fw-bold text-center text-primary">熱門影音</div>
+        </div>
+        <div class="row g-24">
+            @@loop('unit/_video-item.html', [
+                {yid:'oJuPkWQJ0SU', dataLabel:'video01', title:'新生人物-守護腎利 曾素珊醫師',},
+                {yid:'DojqBPkFUts', dataLabel:'video02', title:'閱讀希望 腎行台灣 | 護腎者聯盟號召，守護下一代的健康',},
+                {yid:'YaFDUAJsgng', dataLabel:'video03', title:'產官學研共創器官捐贈響應議題及簽署高峰！',},
+                {yid:'AMG0e2h3-RY', dataLabel:'video04', title:'2018 費森尤斯腎臟超人偏鄉校園衛教公益活動',},
+            ])
+        </div>
     </div>
 </div>

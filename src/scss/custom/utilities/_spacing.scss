@@ -1,8 +1,8 @@
-.pb-100 {
-    padding-bottom: 100px;
+.mt-n36 {
+    margin-top: -36px !important;
 }
-@include media-breakpoint-up(lg) {
-    .py-lg-180 {
-        padding-block: 180px !important;
+.mt-lg-n20 {
+    @include media-breakpoint-up(lg) {
+        margin-top: -20px !important;
     }
 }

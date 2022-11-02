@@ -3,6 +3,11 @@ body {
         font-size: rfs-fluid-value(0.9rem);
     }
 }
+h5, .h5 {
+    @include media-breakpoint-down(lg) {
+        font-size: rfs-fluid-value(0.95rem);
+    }
+}
 .btn {
     @include media-breakpoint-down(lg) {
         font-size: rfs-fluid-value(0.8rem);
