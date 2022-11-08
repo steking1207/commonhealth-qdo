@@ -17,8 +17,8 @@
     height: 400px !important;
     
 }
-.ratio-3x1 {
-    --bs-aspect-ratio: 100%;
+.ratio-kv {
+    --bs-aspect-ratio: 75%;
     @include media-breakpoint-up(lg) {
         --bs-aspect-ratio: 33%;
     }

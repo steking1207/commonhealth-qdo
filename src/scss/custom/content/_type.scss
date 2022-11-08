@@ -13,6 +13,11 @@ h5, .h5 {
         font-size: rfs-fluid-value(0.8rem);
     }
 }
+#mobileHeader {
+    @include media-breakpoint-down(lg) {
+        font-size: rfs-fluid-value(1rem);
+    }
+}
 .fs-small {
     font-size: $small-font-size;
 }
