@@ -21,7 +21,7 @@ logs
 # .publish cache
 .publish
 
-# dist
+dist
 *_src
 # preview/*
 # prototype/*
