@@ -1655,6 +1655,22 @@
         </div>
           
         <main>
+            
+            <div class="modal fade" id="modalVideo" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                    <div class="modal-content rounded-0">
+                        <div class="modal-body p-0">
+                            <div class="position-absolute top-0 end-0 mt-n36 p-0" style="z-index: 10;">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            
+                            <div class="ratio ratio-16x9">
+                                <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="mt-52 mt-lg-40" id="kv" data-category="web_event" data-action="2022dental" data-label="section-dental-kv">
                 <div class="swiper swiper-kv">
                     <div class="swiper-wrapper">
@@ -1819,7 +1835,6 @@
                         <div class="col-12 col-md-6 col-lg-3">
                             <a class="d-block btn-video btn-hover-shadow shadow-sm text-decoration-none rounded-4" href="#" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/9dDcI3ajMAI" data-bs-target="#modalVideo" data-category="web_event" data-action=2022dental" data-label="video01">
                                 <div class="ratio ratio-16x9">
-                                    
                                     <img class="of-cover rounded-top rounded-4" src="https://i3.ytimg.com/vi/9dDcI3ajMAI/maxresdefault.jpg" alt="口腔外科專科．鄭至堯醫師，拔牙後要放膠原蛋白嗎？寬庭牙醫台中一日美齒	">
                                 </div>
                                 <div class="bg-white-o50 rounded-bottom rounded-4 p-12">
@@ -1831,7 +1846,6 @@
                         </div><div class="col-12 col-md-6 col-lg-3">
                             <a class="d-block btn-video btn-hover-shadow shadow-sm text-decoration-none rounded-4" href="#" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/HWkm1g1d9_c" data-bs-target="#modalVideo" data-category="web_event" data-action=2022dental" data-label="video02">
                                 <div class="ratio ratio-16x9">
-                                    
                                     <img class="of-cover rounded-top rounded-4" src="https://i3.ytimg.com/vi/HWkm1g1d9_c/maxresdefault.jpg" alt="柯涵馨醫師 - 隱形矯正常見問題大解析">
                                 </div>
                                 <div class="bg-white-o50 rounded-bottom rounded-4 p-12">
@@ -1865,21 +1879,8 @@
             </div>
         </div>
         
-        <div class="modal fade" id="modalVideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
-                <div class="modal-content rounded-0">
-                    <div class="modal-body p-0">
-                        <div class="position-absolute top-0 end-0 mt-n36 p-0" style="z-index: 10;">
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        
-                        <div class="ratio ratio-16x9">
-                            <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
+
+        
         
         
         <script src="assets/js/plugin/select2.full.min.js"></script>
